@@ -1,5 +1,5 @@
 
-<img src="php oop.png">
+<img src="php oop.png" width="100%">
 
 ## Learning PHP Object Oriented Programming
 
