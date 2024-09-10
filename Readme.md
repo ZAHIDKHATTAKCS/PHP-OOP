@@ -1,5 +1,9 @@
+
+<img src="php oop.png">
+
 ## Learning PHP Object Oriented Programming
 
+## <p align='center'>Day 1 </p>
 
 #### <p align='center'>Topic 1 of OOP</p>
 
@@ -25,8 +29,26 @@ Code written in OOP style with proper comments enhances readability, reusability
 <br>
 
 #### <p align='center'>Topic 4 Constructor and Destructor</p>
+
 - `Constructor` Constructor is called automatically when we create an object for a class, in order to create constructor we have to use double underscore `__construct` and write construct. This is the benefit of constructor so we don't have to call the constructor by object, it's automatically called whenever we just create an object.
 
 - `Destructor` Destructor is also called automatically when we just create object for a class, but the main difference in between Constructor and Destructor is when the class is load the first thing that runs is constructor and the last thing run when the class is load is Destructor
 
 <p align="center"> <b>Note: Constructor execute first, after that all the other functions that we are defined are run in order, after all these Destructor will run at the end </b></p>
+
+<br><br>
+
+## <p align='center'>Day 2 </p>
+
+#### <p align='center'>Topic 5 Inheritance</p>
+
+- `Inheritance` inheritance is the fundamental concept in object oriented programming where on class known is child class derives properties and behaviors from another class known is parent class, 
+<br>
+Inheritance is when we used the functionality of a one class in another class is called inheritance
+
+- `Extends Keyword` in order to inherit the properties of the parent class to the child class we have to use the extends keyword,
+
+- `parent:` and to apply the properties of parent to the child class we have to use parent: and than call the property like 
+
+<p align="center">Parent : :  __Construct ( ) ;</p>
+
