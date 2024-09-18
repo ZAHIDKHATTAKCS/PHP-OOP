@@ -84,3 +84,29 @@ return $this -> num = 1000 ; <br>
 </p>
 
 - `Note` we can also protected functions and access and modify them by getter and setter like how we set values earlier
+
+
+## <p align='center'>Day 3 </p>
+
+#### <p align='center'>Topic 6 Abstraction</p>
+
+- `Abstraction` Abstraction is the process of hiding the implementation details and showing only the functionality to the user. for Data abstraction we have to create abstract class first and there are some rules for it. <br>
+
+    1.  if we creating a data abstraction class so we need to use abstract keyword before class name.
+
+    2. if we create a data abstraction class so we have to create an abstract function inside it.
+
+    3. if you are creating an abstract class so you can't create an object for it this is rule 3.
+
+    4. you can create an abstract function inside abstract class but you can't create the function body, you can only declare the function inside the abstract class but you can't create the function properly with it's body. you can create the proper function body with the derived class using inheritance.
+
+- `Abstract keyword` is a keyword in php used for creating an abstract class. 
+
+`Note` abstract function can be declared only you have to define it an inheritance class.
+
+#### <p align='center'>Topic 6 Interface</p>
+
+- `Interface` interface is like abstraction, but it's way of defining and accessing is quite different. When we using abstraction so we can't extends two classes at a time in php for that if we want to use abstract class and use to extends/inherit in two child classes so we have to use Interface. in order to create an interface we have to use interface keyword.
+
+`Note` we can't extends mean use inheritance in interface but we can use implements instead of inheritance an interface. implements is used to concatenate multiple interfaces, and in interface we can make two different interfaces and implements the both interfaces on a single class, and we can't use constructor inside the interface, and we can only use public function other than public like protected, private, will give an error in interface.
+
