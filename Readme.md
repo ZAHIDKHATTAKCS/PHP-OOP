@@ -110,3 +110,20 @@ return $this -> num = 1000 ; <br>
 
 `Note` we can't extends mean use inheritance in interface but we can use implements instead of inheritance an interface. implements is used to concatenate multiple interfaces, and in interface we can make two different interfaces and implements the both interfaces on a single class, and we can't use constructor inside the interface, and we can only use public function other than public like protected, private, will give an error in interface.
 
+#### <p align='center'>Topic 8 Static Members</p>
+
+- `Static Members`  Static Members are functions that can be called directly on the class without creating an object, as per class accessing we must use the object creation and calling it so by this way we can access the classes without deals with objects now. 
+
+`Note` so instead of creating object in Static Members we have to use double colon ( : : ) to call the variables directly like, and note that we can't use $this keyword inside the static function for that we can use self keyword instead.
+
+
+`Note` if you are using constructor inside the static members so you must have to create an object for constructor to call.
+
+
+<p align="center">class abc { <br>
+    public static $name = "Computer Problem Solution with Zahid Khattak";
+<br> 
+} <br>
+// now we can access the name directly <br>
+echo abc : : $name ;</p>
+
