@@ -104,7 +104,7 @@ return $this -> num = 1000 ; <br>
 
 `Note` abstract function can be declared only you have to define it an inheritance class.
 
-#### <p align='center'>Topic 6 Interface</p>
+#### <p align='center'>Topic 7 Interface</p>
 
 - `Interface` interface is like abstraction, but it's way of defining and accessing is quite different. When we using abstraction so we can't extends two classes at a time in php for that if we want to use abstract class and use to extends/inherit in two child classes so we have to use Interface. in order to create an interface we have to use interface keyword.
 
