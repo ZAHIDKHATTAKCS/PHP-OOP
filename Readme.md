@@ -127,6 +127,10 @@ return $this -> num = 1000 ; <br>
 // now we can access the name directly <br>
 echo abc : : $name ;</p>
 
+
+
+## <p align='center'>Day 4 </p>
+
 #### <p align='center'>Topic 9 Traits </p>
 
 - `Trait` trait is when use same function in each class and wants to make changes on the each function in the each class so this will take time to make changes on each function one by one so for that we can use Trait to save our time, so trait is like outer function in code in which we can make changes that will render on each class because we just call the same trait in each class.
